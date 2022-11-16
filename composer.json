@@ -1,7 +1,7 @@
 {
     "name": "qlsgroup/magento2-module-noreservations",
     "description": "",
-    "version": "v1.0.0",
+    "version": "v1.0.1",
     "require": {
         "magento/module-inventory": "^1.0",
         "magento/module-inventory-shipping": "^1.0"

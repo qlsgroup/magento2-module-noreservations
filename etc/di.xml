@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <!-- add plugin around Magento\InventorySales\Model\PlaceReservationsForSalesEvent so that we can remove this functionality -->
     <type name="Magento\InventorySales\Model\PlaceReservationsForSalesEvent">
-        <plugin name="EightWireNrPlaceReservationsForSalesEventPlugin" type="EightWire\NoReservations\Plugin\PlaceReservationsForSalesEventPlugin" />
+        <plugin name="QlsPlaceReservationsForSalesEventPlugin" type="Qls\NoReservations\Plugin\PlaceReservationsForSalesEventPlugin" />
     </type>
 
     <!-- If the order is invoiced during it's creation this plugin can throw errors on checkout when stock is at 1 due
