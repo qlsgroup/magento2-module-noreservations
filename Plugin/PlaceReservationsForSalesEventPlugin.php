@@ -1,5 +1,5 @@
 <?php
-namespace EightWire\NoReservations\Plugin;
+namespace Qls\NoReservations\Plugin;
 
 use Magento\InventorySales\Model\PlaceReservationsForSalesEvent;
 

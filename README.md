@@ -5,10 +5,9 @@ Magento 2.3 introduced [MSI](https://github.com/magento/inventory) which was a c
 This module attempts to get around some of these issues by doing the following:
 
 * Stopping any reservations being persisted to the database.
-* Changing when Magento deducts inventory from sources to when an order is invoiced rather than when it is shipped. 
+* No deductions on Shipping because QLS manages this. 
 
 We are basically reverting to a behaviour more like Magento 2.2 where stock qty is also the saleable qty. 
 
-This is not a one size fits all solution, it was written for a specific use case. That said it has worked well for us so far and may be useful for merchants with similar requirements. It has been used on Magento 2.3.1 and 2.3.2 sites.
-
-Provided by [8 Wire Digital](https://www.8wiredigital.co.nz/)
+Originally make by [8 Wire Digital](https://www.8wiredigital.co.nz/)
+Copied by [QLS](https://www.qls.nl/)

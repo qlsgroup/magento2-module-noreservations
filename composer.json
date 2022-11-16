@@ -1,5 +1,5 @@
 {
-    "name": "eightwire/magento2-module-noreservations",
+    "name": "qlsgroup/magento2-module-noreservations",
     "description": "",
     "require": {
         "magento/module-inventory": "^1.0",
@@ -16,7 +16,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "EightWire\\NoReservations\\": ""
+            "Qls\\NoReservations\\": ""
         }
     }
 }
